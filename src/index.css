@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  margin: 0%;
+  padding: 0%;
+}
+:root {
+  --primary: 30, 58, 138;    /* dark blue */
+  --primary-light: 59, 130, 246;  /* light blue */
+  --secondary: 71, 85, 105;   /* slate gray */
+  --accent: 14, 165, 233;     /* sky blue */
+  --background: 255, 255, 255; /* white */
+  --foreground: 15, 23, 42;   /* slate 900 */
+}
+
+@layer base {
+  body {
+    @apply bg-white text-slate-900;
+  }
+}
+
+.gradient-bg {
+  background: linear-gradient(135deg, rgb(var(--primary)) 0%, rgb(var(--primary-light)) 100%);
+}
