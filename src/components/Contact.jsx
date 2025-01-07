@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { MapPin, Phone, Mail } from 'lucide-react';
+import axios from "axios"
 
 export default function Contact() {
   const [formData, setFormData] = useState({
@@ -8,9 +9,21 @@ export default function Contact() {
     message: ''
   });
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
     // Add form submission logic here
+    try{
+      const res = await axios.post("https://tracksencebackend.onrender.com/api/contact", formData);
+      if (res.data.success) {
+        alert('Message sent successfully!');
+        setFormData({ name: '', email: '', message: '' }); // Clear the form
+      } else {
+        alert('Failed to send the message. Please try again.');
+      }
+    }catch(error){
+      console.error('Error sending message:', error);
+      alert('An error occurred. Please try again later.');
+    }
     console.log(formData);
   };
 
