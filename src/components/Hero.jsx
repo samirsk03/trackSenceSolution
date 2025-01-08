@@ -7,10 +7,10 @@ export default function Hero() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
           <div className="text-white text-center md:text-left">
             <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-6">
-              Securing Your World with Advanced CCTV Solutions
+            Comprehensive Range of People Counting Sensors
             </h1>
             <p className="text-lg sm:text-xl md:text-2xl mb-8">
-              Professional surveillance systems for businesses and homes across India
+            Made in the UK. In-house design. We are a manufacturer of people counting system, offering 6 devices for various needs and environments
             </p>
             <button style={{ color: 'rgb(15 23 42)' }} className="bg-white text-current px-6 py-3 rounded-lg hover:bg-gray-100 transition-colors duration-200 text-lg sm:text-xl">
               Get Started

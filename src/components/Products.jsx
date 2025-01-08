@@ -189,7 +189,7 @@ export default function Products() {
         <div className="text-center mb-20">
           <h2 className="text-4xl sm:text-5xl md:text-6xl font-bold mb-8">Our Products</h2>
           <p className="text-secondary text-xl sm:text-2xl max-w-4xl mx-auto">
-            Explore our range of high-quality surveillance and security solutions 
+            Explore our range of high-quality people counting and IT solutions 
           </p>
         </div>
 

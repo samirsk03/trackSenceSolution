@@ -59,11 +59,11 @@ export default function Contact() {
             <div className="mt-16 space-y-8">
               <div className="flex items-center gap-6">
                 <Phone className="text-primary w-10 h-10" />
-                <span className="text-xl">+91 1234567890</span>
+                <span className="text-xl">+91 9960670630</span>
               </div>
               <div className="flex items-center gap-6">
                 <Mail className="text-primary w-10 h-10" />
-                <span className="text-xl">info@tracksensesolutions.com</span>
+                <span className="text-xl">fahad.kuchi@tracksensesolutions.com</span>
               </div>
             </div>
           </div>

@@ -14,8 +14,8 @@ export default function Footer() {
               className="h-16 w-auto mb-6"
             />
             <p className="text-gray-400 max-w-md text-lg">
-              Leading provider of CCTV and surveillance solutions across Madhya Pradesh,
-              Maharashtra, Gujarat, and Goa.
+              Leading provider of high quality , reliable , accurate and easy to use people counting system across Maharashtra ,
+              Madhya Pradesh, Gujarat, and Goa.
             </p>
           </div>
           
@@ -32,8 +32,8 @@ export default function Footer() {
           <div className="space-y-6">
             <h3 className="text-2xl font-bold">Contact Info</h3>
             <ul className="space-y-4 text-gray-400 text-lg">
-              <li>info@tracksensesolutions.com</li>
-              <li>+91 1234567890</li>
+              <li>fahad.kuchi@tracksensesolutions.com</li>
+              <li>+91 9960670630</li>
               <li>Available in:</li>
               <li>Madhya Pradesh, Maharashtra,</li>
               <li>Gujarat, Goa</li>
