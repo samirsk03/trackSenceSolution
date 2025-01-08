@@ -202,7 +202,7 @@ export default function Products() {
                 className="w-full h-72 object-cover"
               />
               <div className="p-8">
-                <h3 className="text-2xl font-bold mb-4">{product.title}</h3>
+                <h3 className="text-2xl text-blue-600 font-bold mb-4">{product.title}</h3>
                 <p className="text-secondary mb-6 text-lg">{product.desc}</p>
                 <ul className="mb-6 text-lg">
                   {product.keyPoints.map((point, i) => (
