@@ -8,177 +8,91 @@ import picture5DPro from "../assets/product/Profile-picture-5D-Pro_lg.png"
 import proWave from "../assets/product/ProWave.jpg"
 import { Waves } from 'lucide-react';
 
-// const products = [
-//   {
-//     name: "FootfallCam People Counter",
-//     description: "Advanced people counting solution for retail analytics",
-//     points: [
-//       "99% accuracy",
-//       "Real-time data",
-//       "Cloud-based dashboard"
-//     ],
-//     price: 29999,
-//     image: "/images/products/footfallcam-counter.webp"
-//   },
-//   {
-//     name: "HD CCTV Camera",
-//     description: "High-definition surveillance for crystal clear footage",
-//     points: [
-//       "1080p resolution",
-//       "Night vision",
-//       "Weather-resistant"
-//     ],
-//     price: 4999,
-//     image: "/images/products/hd-cctv-camera.webp"
-//   },
-//   {
-//     name: "4K DVR System",
-//     description: "Advanced digital video recording with 4K resolution",
-//     points: [
-//       "8-channel recording",
-//       "1TB storage",
-//       "Remote access"
-//     ],
-//     price: 12999,
-//     image: "/images/products/4k-dvr-system.webp"
-//   },
-//   {
-//     name: "Wireless IP Camera",
-//     description: "Wi-Fi enabled camera with remote viewing capabilities",
-//     points: [
-//       "Easy setup",
-//       "Two-way audio",
-//       "Motion detection"
-//     ],
-//     price: 6999,
-//     image: "/images/products/wireless-ip-camera.webp"
-//   },
-//   {
-//     name: "PTZ Camera",
-//     description: "Pan-Tilt-Zoom camera for flexible surveillance",
-//     points: [
-//       "360° rotation",
-//       "20x optical zoom",
-//       "Auto-tracking"
-//     ],
-//     price: 8999,
-//     image: "/images/products/ptz-camera.webp"
-//   },
-//   {
-//     name: "Thermal Camera",
-//     description: "Detect heat signatures for enhanced security",
-//     points: [
-//       "Temperature detection",
-//       "Long-range visibility",
-//       "Fire detection"
-//     ],
-//     price: 29999,
-//     image: "/images/products/thermal-camera.webp"
-//   },
-//   {
-//     name: "License Plate Recognition Camera",
-//     description: "Automatically capture and log vehicle license plates",
-//     points: [
-//       "High-speed capture",
-//       "AI-powered recognition",
-//       "Database integration"
-//     ],
-//     price: 15999,
-//     image: "/images/products/lpr-camera.webp"
-//   },
-//   {
-//     name: "Covert Camera",
-//     description: "Discreet surveillance for sensitive areas",
-//     points: [
-//       "Pinhole lens",
-//       "HD resolution",
-//       "Wide viewing angle"
-//     ],
-//     price: 7999,
-//     image: "/images/products/covert-camera.webp"
-//   }
-// ];
+
 const products = [
   {
     title: "5D Pro",
-    desc: "5-dimensional people counter with advanced vision and AI technology.",
-    keyPoints: [
-      "5-Dimensional Vision: 3D Stereo Vision, Time-of-Flight, and A.I.",
-      "Accuracy of 99.5% in all environments",
-      "Ceiling height: 2.1m-4.5m",
-      "Suitable for Retail and Shopping Malls"
+    desc: "A high-accuracy people counter using 5-dimensional vision, including 3D Stereo Vision, Time-of-Flight, and AI.",
+    keypoints: [
+      "Accuracy: 99.5% in all environments.",
+      "Ceiling Height: 2.1m-4.5m.",
+      "Suitable for Retail and Shopping Malls."
     ],
     img: picture5DPro
   },
   {
     title: "3D Mini",
-    desc: "Compact and cost-effective people counter with Time-of-Flight technology.",
-    keyPoints: [
-      "Time-of-Flight (ToF) Sensor",
-      "Cost Effective",
-      "Ceiling height: 1.9m-3m",
-      "Total Privacy - No camera",
-      "Suitable for Meeting Rooms and Washrooms"
+    desc: "A cost-effective people counter using Time-of-Flight (ToF) sensors.",
+    keypoints: [
+      "Ceiling Height: 1.9m-3m.",
+      "Total Privacy - No camera.",
+      "Suitable for Meeting Rooms and Washrooms."
     ],
     img: Dmini
   },
   {
     title: "3D Extend",
-    desc: "High-ceiling people counter with 3D Stereo Vision and AI.",
-    keyPoints: [
-      "3D Stereo Vision and A.I.",
-      "Ceiling height: 4.5m-20m",
-      "Suitable for high ceiling in Airports and Shopping Malls"
+    desc: "People counter with 3D Stereo Vision and AI for high-ceiling areas.",
+    keypoints: [
+      "Ceiling Height: 4.5m-20m.",
+      "Suitable for high ceilings in Airports and Shopping Malls."
     ],
     img: Dextend
   },
   {
     title: "3D Pro2",
-    desc: "Wide coverage and high-accuracy people counter.",
-    keyPoints: [
-      "3D Stereo Vision and A.I. Analytics",
-      "Best selling people counter in 2020",
-      "Wide coverage area up to 8m",
-      "Ceiling height: 2.5m-4.5m",
-      "Suitable for Retail and Shopping Malls"
+    desc: "Best-selling 3D Stereo Vision people counter with wide coverage.",
+    keypoints: [
+      "Wide Coverage Area: Up to 8m.",
+      "Ceiling Height: 2.5m-4.5m.",
+      "Suitable for Retail and Shopping Malls."
     ],
     img: Dpro2
   },
   {
     title: "3D ProWave",
-    desc: "Millimeter wave sensor people counter with total privacy.",
-    keyPoints: [
-      "Millimeter Wave Sensor",
-      "120° super wide coverage",
-      "Can count people in sitting position",
-      "Total Privacy - No camera",
-      "Suitable for office collaboration areas"
+    desc: "Millimeter wave sensor for advanced people counting.",
+    keypoints: [
+      "120° super wide coverage.",
+      "Can count people in a sitting position.",
+      "Total Privacy - No camera.",
+      "Suitable for office collaboration areas."
     ],
     img: proWave
-  },
+  }]
+  const products1 = [
   {
     title: "Centroid",
-    desc: "Embedded AI solution with skeleton tracking and facial recognition.",
-    keyPoints: [
-      "Embedded A.I.- Skeleton Tracking and Facial Recognition",
-      "Supports 8x CCTV cameras",
-      "Compatible with any IP CCTV camera",
-      "Suitable for Retail and Shopping Malls"
+    desc: "Embedded AI for skeleton tracking and facial recognition.",
+    keypoints: [
+      "Supports 8x CCTV cameras.",
+      "Compatible with any IP CCTV camera.",
+      "Suitable for Retail and Shopping Malls."
     ],
     img: centroid
   },
   {
     title: "Centroid Outdoor",
-    desc: "Embedded AI solution with skeleton tracking and facial recognition.",
-    keyPoints: [
-      "Embedded A.I.- Skeleton Tracking and Facial Recognition",
-      "Supports 8x CCTV cameras",
-      "Compatible with any IP CCTV camera",
-      "Suitable for Retail and Shopping Malls"
+    desc: "Outdoor AI-based skeleton tracking with weatherproof design.",
+    keypoints: [
+      "Optional 4G or LoRa connectivity.",
+      "Compatible with any IP CCTV camera.",
+      "Suitable for Street Counting."
     ],
     img: centroidOutdoor
+  },
+  {
+    title: "Smart Bus Controller",
+    desc: "GPS-enabled controller for bus occupancy tracking.",
+    keypoints: [
+      "Real-time processing data.",
+      "Multiple connectivity options.",
+      "Suitable for Bus Occupancy."
+    ],
+    img: Dmini
   }
 ];
+
 
 
 
@@ -193,7 +107,9 @@ export default function Products() {
           </p>
         </div>
 
+        <h3 className="p-8 text-2xl text-blue-600 font-bold mb-4">People Counter</h3>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-12">
+       
           {products.map((product, index) => (
             <div key={index} className="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300 transform hover:-translate-y-1">
               <img
@@ -205,7 +121,36 @@ export default function Products() {
                 <h3 className="text-2xl text-blue-600 font-bold mb-4">{product.title}</h3>
                 <p className="text-secondary mb-6 text-lg">{product.desc}</p>
                 <ul className="mb-6 text-lg">
-                  {product.keyPoints.map((point, i) => (
+                  {product.keypoints.map((point, i) => (
+                    <li key={i} className="flex items-center mb-3">
+                      <svg className="w-6 h-6 mr-3 text-green-500" fill="none" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" viewBox="0 0 24 24" stroke="currentColor">
+                        <path d="M5 13l4 4L19 7"></path>
+                      </svg>
+                      {point}
+                    </li>
+                  ))}
+                </ul>
+                
+              </div>
+            </div>
+          ))}
+        </div>
+        <br /><br /><br />
+        <h3 className="text-2xl p-8 text-blue-600 font-bold mb-4">AI Analytics</h3>
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-12">
+        
+          {products1.map((product, index) => (
+            <div key={index} className="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300 transform hover:-translate-y-1">
+              <img
+                src={product.img}
+                alt={product.title}
+                className="w-full h-72 object-cover"
+              />
+              <div className="p-8">
+                <h3 className="text-2xl text-blue-600 font-bold mb-4">{product.title}</h3>
+                <p className="text-secondary mb-6 text-lg">{product.desc}</p>
+                <ul className="mb-6 text-lg">
+                  {product.keypoints.map((point, i) => (
                     <li key={i} className="flex items-center mb-3">
                       <svg className="w-6 h-6 mr-3 text-green-500" fill="none" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" viewBox="0 0 24 24" stroke="currentColor">
                         <path d="M5 13l4 4L19 7"></path>
