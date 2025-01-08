@@ -35,74 +35,74 @@ export default function Contact() {
   ];
 
   return (
-    <section className="py-24 sm:py-32">
+    <section className="py-16 sm:py-20">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="text-center mb-20">
-          <h2 className="text-4xl sm:text-5xl md:text-6xl font-bold mb-8">Contact Us</h2>
-          <p className="text-secondary text-xl sm:text-2xl max-w-4xl mx-auto">
-            Get in touch with us for all your CCTV and surveillance needs
+        <div className="text-center mb-12">
+          <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-4">Contact Us</h2>
+          <p className="text-secondary max-w-2xl mx-auto text-sm sm:text-base">
+          Get in touch with us for your Queries and will contact you at earliest mention number and email
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-16">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12">
           <div>
-            <h3 className="text-3xl sm:text-4xl font-bold mb-10">Our Locations</h3>
-            <div className="grid gap-8">
+            <h3 className="text-xl sm:text-2xl font-bold mb-6">Our Locations</h3>
+            <div className="grid gap-4 sm:gap-6">
               {locations.map((location, index) => (
-                <div key={index} className="flex items-center gap-6">
-                  <MapPin className="text-primary w-10 h-10" />
-                  <span className="text-xl">{location}</span>
+                <div key={index} className="flex items-center gap-4">
+                  <MapPin className="text-primary w-5 h-5 sm:w-6 sm:h-6" />
+                  <span className="text-sm sm:text-base">{location}</span>
                 </div>
               ))}
             </div>
 
-            <div className="mt-16 space-y-8">
-              <div className="flex items-center gap-6">
-                <Phone className="text-primary w-10 h-10" />
-                <span className="text-xl">+91 9960670630</span>
+            <div className="mt-8 space-y-4">
+              <div className="flex items-center gap-4">
+                <Phone className="text-primary w-5 h-5 sm:w-6 sm:h-6" />
+                <span className="text-sm sm:text-base">+91 9960670630</span>
               </div>
-              <div className="flex items-center gap-6">
-                <Mail className="text-primary w-10 h-10" />
-                <span className="text-xl">fahad.kuchi@tracksensesolutions.com</span>
+              <div className="flex items-center gap-4">
+                <Mail className="text-primary w-5 h-5 sm:w-6 sm:h-6" />
+                <span className="text-sm sm:text-base">fahad.kuchi@tracksensesolutions.com</span>
               </div>
             </div>
           </div>
 
-          <form onSubmit={handleSubmit} className="space-y-8">
+          <form onSubmit={handleSubmit} className="space-y-4 sm:space-y-6">
             <div>
-              <label htmlFor="name" className="block mb-2 text-xl font-medium">
+              <label htmlFor="name" className="block mb-2 font-medium text-sm sm:text-base">
                 Name
               </label>
               <input
                 type="text"
                 id="name"
-                className="w-full px-4 py-3 text-xl border rounded-lg focus:ring-2 focus:ring-primary focus:border-transparent"
+                className="w-full px-3 sm:px-4 py-2 border rounded-lg focus:ring-2 focus:ring-primary focus:border-transparent text-sm sm:text-base"
                 value={formData.name}
                 onChange={(e) => setFormData({ ...formData, name: e.target.value })}
                 required
               />
             </div>
             <div>
-              <label htmlFor="email" className="block mb-2 text-xl font-medium">
+              <label htmlFor="email" className="block mb-2 font-medium text-sm sm:text-base">
                 Email
               </label>
               <input
                 type="email"
                 id="email"
-                className="w-full px-4 py-3 text-xl border rounded-lg focus:ring-2 focus:ring-primary focus:border-transparent"
+                className="w-full px-3 sm:px-4 py-2 border rounded-lg focus:ring-2 focus:ring-primary focus:border-transparent text-sm sm:text-base"
                 value={formData.email}
                 onChange={(e) => setFormData({ ...formData, email: e.target.value })}
                 required
               />
             </div>
             <div>
-              <label htmlFor="message" className="block mb-2 text-xl font-medium">
+              <label htmlFor="message" className="block mb-2 font-medium text-sm sm:text-base">
                 Message
               </label>
               <textarea
                 id="message"
-                rows={6}
-                className="w-full px-4 py-3 text-xl border rounded-lg focus:ring-2 focus:ring-primary focus:border-transparent"
+                rows={4}
+                className="w-full px-3 sm:px-4 py-2 border rounded-lg focus:ring-2 focus:ring-primary focus:border-transparent text-sm sm:text-base"
                 value={formData.message}
                 onChange={(e) => setFormData({ ...formData, message: e.target.value })}
                 required
@@ -110,7 +110,7 @@ export default function Contact() {
             </div>
             <button
               type="submit"
-              className="w-full gradient-bg text-white py-4 rounded-lg text-xl hover:opacity-90 transition-opacity"
+              className="w-full gradient-bg text-white py-2 sm:py-3 rounded-lg hover:opacity-90 transition-opacity text-sm sm:text-base"
             >
               Send Message
             </button>
@@ -120,4 +120,7 @@ export default function Contact() {
     </section>
   );
 }
+
+
+
 

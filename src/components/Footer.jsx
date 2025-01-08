@@ -35,7 +35,7 @@ export default function Footer() {
               <li>fahad.kuchi@tracksensesolutions.com</li>
               <li>+91 9960670630</li>
               <li>Available in:</li>
-              <li>Madhya Pradesh, Maharashtra,</li>
+              <li>Maharashtra, Madhya Pradesh</li>
               <li>Gujarat, Goa</li>
             </ul>
           </div>

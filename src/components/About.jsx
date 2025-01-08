@@ -9,7 +9,7 @@ export default function About() {
           <h2 className="text-4xl sm:text-5xl md:text-6xl font-bold mb-8">About Us</h2>
           <p className="text-secondary text-xl sm:text-2xl max-w-4xl mx-auto">
           Our mission is to help businesses and organisations optimise their operations, improve customer experiences, and drive revenue growth through our innovative solutions. Our cutting-edge technology and intuitive software platform allow businesses to gain valuable insights into their operations, from customer behaviour to occupancy rates we are serving in Maharashtra. <br /> <br />
-          Established in the UK in 2002, we as an autherised resellers in India has emerged as  the global frontrunner in people counting solutions. As an engineering company, we take pride in harnessing cutting-edge technologies to develop dependable, precise, and valuable products.
+          Established in the UK in 2002, we as an authorised resellers in India has emerged as  the global frontrunner in people counting solutions. As an engineering company, we take pride in harnessing cutting-edge technologies to develop dependable, precise, and valuable products.
           </p>
         </div>
         
@@ -22,11 +22,11 @@ export default function About() {
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-8">
               <div className="p-8 bg-gray-50 rounded-lg">
                 <h4 className="text-2xl font-bold mb-4">Experience</h4>
-                <p className="text-secondary text-lg">Years of expertise in people counting and AI analytics and other IT solutions </p>
+                <p className="text-secondary text-lg">Years of expertise in People counting, AI Analytics and IT solutions </p>
               </div>
               <div className="p-8 bg-gray-50 rounded-lg">
                 <h4 className="text-2xl font-bold mb-4">Coverage</h4>
-                <p className="text-secondary text-lg">Serving 4 major Indian states</p>
+                <p className="text-secondary text-lg">Serving 4 major Indian states - Maharashtra , Madhya Pradesh , Gujrat and Goa </p>
               </div>
             </div>
           </div>

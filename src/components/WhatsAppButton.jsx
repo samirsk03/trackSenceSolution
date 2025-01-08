@@ -2,8 +2,8 @@ import React from 'react';
 import { Phone } from 'lucide-react';
 
 export default function WhatsAppButton() {
-  const phoneNumber = '+911234567890'; // Replace with your actual WhatsApp number
-  const message = 'Hello! I\'m interested in your CCTV solutions.'; // Pre-filled message
+  const phoneNumber = '+919960670630'; // Replace with your actual WhatsApp number
+  const message = 'Hello! I\'m interested in your people counting solutions.'; // Pre-filled message
 
   const handleClick = () => {
     const url = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
