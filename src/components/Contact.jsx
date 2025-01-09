@@ -40,7 +40,7 @@ export default function Contact() {
         <div className="text-center mb-12">
           <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-4">Contact Us</h2>
           <p className="text-secondary max-w-2xl mx-auto text-sm sm:text-base">
-          Get in touch with us for your Queries and will contact you at earliest mention number and email
+          Get in touch with us for your Queries.
           </p>
         </div>
 

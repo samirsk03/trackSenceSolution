@@ -10,7 +10,7 @@ export default function Hero() {
             Comprehensive Range of People Counting Sensors
             </h1>
             <p className="text-lg sm:text-xl md:text-2xl mb-8">
-            Made in the UK. In-house design. We are a AUTHORISED RESELLERS of people counting system, offering 6 devices for various needs and environments
+            Made in the UK. In-house design. We are a Authorised Resellers of people counting system, offering multiple devices for various AI and People Counting Solution
             </p>
             <button style={{ color: 'rgb(15 23 42)' }} 
             className="bg-white text-current px-6 py-3 rounded-lg hover:bg-gray-100 transition-colors duration-200 text-lg sm:text-xl"

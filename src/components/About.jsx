@@ -17,7 +17,7 @@ export default function About() {
           <div>
             <h3 className="text-3xl sm:text-4xl font-bold mb-8">Authorized Reseller</h3>
             <p className="text-secondary text-xl mb-10">
-              We are proud to be an authorized reseller of FootfallCam and other leading .
+              We are proud to be an authorized reseller of FootfallCam and Other leading AI devices and Solutions .
             </p>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-8">
               <div className="p-8 bg-gray-50 rounded-lg">
