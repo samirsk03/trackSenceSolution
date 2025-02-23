@@ -65,6 +65,11 @@ export default function Contact() {
                 <Mail className="text-primary w-5 h-5 sm:w-6 sm:h-6" />
                 <span className="text-sm sm:text-base">fahad.kuchi@tracksensesolutions.com</span>
               </div>
+              <div className="flex items-center gap-4">
+                <Mail className="text-primary w-5 h-5 sm:w-6 sm:h-6" />
+                <span className="text-sm sm:text-base">sales@tracksensesolutions.com</span>
+                
+              </div>
             </div>
           </div>
 
