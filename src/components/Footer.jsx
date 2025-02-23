@@ -32,6 +32,7 @@ export default function Footer() {
           <div className="space-y-6">
             <h3 className="text-2xl font-bold">Contact Info</h3>
             <ul className="space-y-4 text-gray-400 text-lg">
+              <li>sales@tracksensesolutions.com</li>
               <li>fahad.kuchi@tracksensesolutions.com</li>
               <li>+91 9960670630</li>
               <li>Available in:</li>
